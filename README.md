@@ -1,5 +1,7 @@
 # Artemis CSS library
 
+version 0.1.1
+
 ## CSS class available
 
 ### Declinaison of color
