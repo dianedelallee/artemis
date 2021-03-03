@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/dianedelallee/artemis.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/dianedelallee"
-  },
   "keywords": [
     "CSS",
     "Bootstrap",
