@@ -1,10 +1,4 @@
-# Artemis Bootstrap template
-
-## Libraries used
- * Bootstrap: 5.0.0-beta2
- * Animate.css: 4.1.1
- * highlight.js: 10.5.0
- * fontawesome: 5.10.0
+# Artemis CSS library
 
 ## CSS class available
 
@@ -41,4 +35,6 @@ Term | color | value
 * important
 * show
 
+## How to use it?
 
+`npm install artemis-css`
