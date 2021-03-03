@@ -1,0 +1,24 @@
+{
+  "name": "artemis",
+  "version": "0.0.1",
+  "description": "A nice css library for bootstrap 5",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianedelallee/artemis.git"
+  },
+  "keywords": [
+    "CSS",
+    "Bootstrap",
+    "Animate"
+  ],
+  "author": "Diane Delallee <diane.delallee@gmail.com> (https://fatalement.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dianedelallee/artemis/issues"
+  },
+  "homepage": "https://github.com/dianedelallee/artemis#readme"
+}
