@@ -1,6 +1,6 @@
 # Artemis CSS library
 
-version 0.1.1
+version 0.1.2
 
 ## CSS class available
 
@@ -40,3 +40,8 @@ Term | color | value
 ## How to use it?
 
 `npm install artemis-css`
+
+
+## In the next release
+* Better explanation of how to use it
+* Propose other form style
