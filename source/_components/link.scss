@@ -1,0 +1,42 @@
+@mixin link($back-color: $primary) {
+  text-decoration: none;
+  color: $back-color;
+
+  &:hover {
+    color: darken($back-color, 10);
+    text-decoration: underline;
+  }
+}
+
+
+.link, .link-primary, a{
+  @include link();
+}
+
+.link-secondary {
+  @include link($secondary);
+}
+
+.link-secondary-dark {
+  @include link($secondary-dark);
+}
+
+.link-success {
+  @include link($success);
+}
+
+.link-warning {
+  @include link($warning);
+}
+
+.link-danger {
+  @include link($danger);
+}
+
+.link-white {
+  @include link($white);
+}
+
+.link-black {
+  @include link($black);
+}

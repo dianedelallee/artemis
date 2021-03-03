@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ECECEC;
+  background-color: #171D1C;
+  text-align: center;
+}
+
+h1 {
+  font-size:3em;
+  color: #F3D250;
+  animation: bounceInDown;
+  animation-duration: 2s;
+}
+
+h2 {
+  animation: bounceInUp;
+  animation-duration: 1s;
+  color: #90CCF4;
+}
+
+h3 {
+  color: #90CCF4;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+
+.container {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+.title {
+  margin-bottom: 10vh;
+}
+
+.input {
+  margin-bottom: 2vh;
+}
+
+.info {
+  width: 50vw;
+  margin-left: 25vw;
+}
+
+.footer {
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 5vh;
+}

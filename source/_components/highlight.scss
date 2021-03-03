@@ -1,0 +1,118 @@
+@mixin mixin-highlight($back-color: $primary) {
+  padding: {
+    right: $padding;
+    left: $padding;
+  };
+  margin: {
+    right: 2px;
+    left: 2px;
+  };
+  background-color: $back-color;
+  color: #000000;
+  font-style: italic;
+}
+
+.highlight, .highlight-primary {
+  @include mixin-highlight();
+}
+
+.highlight-secondary {
+  @include mixin-highlight($secondary);
+}
+
+.highlight-secondary-dark {
+  @include mixin-highlight($secondary-dark);
+}
+
+.highlight-success {
+  @include mixin-highlight($success);
+}
+
+.highlight-warning {
+  @include mixin-highlight($warning);
+}
+
+.highlight-danger {
+  @include mixin-highlight($danger);
+}
+
+.highlight-white {
+  @include mixin-highlight($white);
+}
+
+.highlight-black {
+  @include mixin-highlight($black);
+  color: $white;
+}
+
+@mixin mixin-important($back-color: $primary) {
+  border-bottom: 3px solid $back-color;
+}
+
+.important, .important-primary {
+  @include mixin-important();
+}
+
+.important-secondary {
+  @include mixin-important($secondary);
+}
+
+.important-secondary-dark {
+  @include mixin-important($secondary-dark);
+}
+
+.important-success {
+  @include mixin-important($success);
+}
+
+.important-warning {
+  @include mixin-important($warning);
+}
+
+.important-danger {
+  @include mixin-important($danger);
+}
+
+.important-white {
+  @include mixin-important($white);
+}
+
+.important-black {
+  @include mixin-important($black);
+}
+
+@mixin mixin-show($back-color: $primary) {
+  color: $back-color;
+}
+
+.show, .show-primary {
+  @include mixin-show();
+}
+
+.show-secondary {
+  @include mixin-show($secondary);
+}
+
+.show-secondary-dark {
+  @include mixin-show($secondary-dark);
+}
+
+.show-success {
+  @include mixin-show($success);
+}
+
+.show-warning {
+  @include mixin-show($warning);
+}
+
+.show-danger {
+  @include mixin-show($danger);
+}
+
+.show-white {
+  @include mixin-show($white);
+}
+
+.show-black {
+  @include mixin-show($black);
+}

@@ -1,0 +1,54 @@
+@mixin mixin-input($back-color: $primary) {
+  border: inherit;
+  border-bottom: 2px solid $back-color;
+  background-color: transparent;
+  color: darken($white, 20);
+
+  &:focus {
+    border-bottom: 2px solid $back-color;
+    background-color: transparent;
+    outline: none;
+    color: $white;
+  }
+
+  &:active {
+    outline: none;
+  }
+}
+
+.artemis-input {
+  @include mixin-input();
+}
+
+.artemis-input-secondary {
+  @include mixin-input($secondary);
+}
+
+.artemis-input-secondary-dark {
+  @include mixin-input($secondary-dark);
+}
+
+.artemis-input-success {
+  @include mixin-input($success);
+}
+
+.artemis-input-warning {
+  @include mixin-input($warning);
+}
+
+.artemis-input-danger {
+  @include mixin-input($danger);
+}
+
+.artemis-input-white {
+  @include mixin-input($white);
+}
+
+.artemis-input-black {
+  @include mixin-input($black);
+  color: $black;
+
+   &:focus {
+    color: lighten($black, 50);
+  }
+}

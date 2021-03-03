@@ -1,0 +1,8 @@
+blockquote, quote {
+  background-color: darken($white, 20);
+  font-style: italic;
+  font-weight: 400;
+  border-left: 10px solid darken($white, 40);
+  padding: 2vh 1vw;
+  color: $black;
+}

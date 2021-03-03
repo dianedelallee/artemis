@@ -1,0 +1,232 @@
+@mixin mixin-neon($back-color: $primary) {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba($back-color, 0);
+  outline: 1px solid;
+  outline-color: rgba($back-color, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  color: $back-color;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 2 * $padding;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: transparent;
+
+  &:hover {
+    text-decoration: none;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba($back-color, .5), 0 0 20px rgba($back-color, .2);
+    outline-color: rgba($back-color, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+}
+
+.neon, .neon-primary {
+  @include mixin-neon()
+}
+
+.neon-secondary {
+  @include mixin-neon($secondary)
+}
+
+.neon-secondary-dark {
+  @include mixin-neon($secondary-dark)
+}
+
+.neon-danger {
+  @include mixin-neon($danger)
+}
+
+.neon-warning {
+  @include mixin-neon($warning)
+}
+
+.neon-success {
+  @include mixin-neon($success)
+}
+
+.neon-white {
+  @include mixin-neon($white)
+}
+
+.neon-black {
+  @include mixin-neon($black)
+}
+
+@mixin gamer-button($back-color: $primary) {
+  font-weight: 700;
+  border-radius: 2 * $padding;
+  background-color: $back-color;
+  box-shadow: 0 2px #999;
+  margin: 0 2 * $padding;
+  padding: 2*$padding 4*$padding;
+  cursor: pointer;
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px #666;
+  }
+
+  &:hover {
+    background-color: darken($back-color, 10);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.gamer, .gamer-primary {
+  @include gamer-button();
+}
+
+.gamer-secondary {
+  @include gamer-button($secondary);
+}
+
+.gamer-secondary-dark {
+  @include gamer-button($secondary-dark);
+}
+
+.gamer-success {
+  @include gamer-button($success);
+}
+
+.gamer-warning {
+  @include gamer-button($warning);
+}
+
+.gamer-danger {
+  @include gamer-button($danger);
+}
+
+.gamer-white {
+  @include gamer-button($white);
+}
+
+.gamer-black {
+  @include gamer-button($black);
+  color: $white;
+}
+
+@mixin flat-button($back-color: $primary) {
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid $back-color;
+  color: $back-color;
+  border-radius: 2 * $padding;
+  margin: 0 2 * $padding;
+  padding: 2*$padding 5*$padding;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+
+  &:hover {
+    background-color: $back-color;
+    border: 2px solid darken($back-color, 30);
+    color: #000000;
+  }
+}
+
+.flat, .flat-primary {
+  @include flat-button();
+}
+
+.flat-secondary {
+  @include flat-button($secondary);
+}
+
+.flat-secondary-dark {
+  @include flat-button($secondary-dark);
+}
+
+.flat-success {
+  @include flat-button($success);
+}
+
+.flat-warning {
+  @include flat-button($warning);
+}
+
+.flat-danger {
+  @include flat-button($danger);
+}
+
+.flat-white {
+  @include flat-button($white);
+}
+
+.flat-black {
+  @include flat-button($black);
+}
+
+@mixin flat-reverse-button($back-color: $primary) {
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 2 * $padding;
+  background-color: $back-color;
+  border: 2px solid darken($back-color, 30);
+  color: #000000;
+  margin: 0 2 * $padding;
+  padding: 2*$padding 5*$padding;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $back-color;
+    color: $back-color;
+  }
+}
+
+.flat-reverse, .flat-reverse-primary {
+  @include flat-reverse-button();
+}
+
+.flat-reverse-secondary {
+  @include flat-reverse-button($secondary);
+}
+
+.flat-reverse-secondary-dark {
+  @include flat-reverse-button($secondary-dark);
+}
+
+.flat-reverse-success {
+  @include flat-reverse-button($success);
+}
+
+.flat-reverse-warning {
+  @include flat-reverse-button($warning);
+}
+
+.flat-reverse-danger {
+  @include flat-reverse-button($danger);
+}
+
+.flat-reverse-white {
+  @include flat-reverse-button($white);
+}
+
+.flat-reverse-black {
+  @include flat-reverse-button($black);
+  color: $white;
+}

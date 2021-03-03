@@ -1,6 +1,6 @@
 {
   "name": "artemis",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A nice css library for bootstrap 5",
   "main": "README.md",
   "scripts": {
