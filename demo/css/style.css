@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size:3em;
+  font-size: 3em;
   color: #F3D250;
   animation: bounceInDown;
   animation-duration: 2s;
@@ -27,8 +27,8 @@ h3 {
 }
 
 .container {
-    margin-top: 20vh;
-    margin-bottom: 15vh;
+  margin-top: 20vh;
+  margin-bottom: 15vh;
 }
 
 .title {
@@ -42,6 +42,16 @@ h3 {
 .info {
   width: 50vw;
   margin-left: 25vw;
+}
+
+.container-for-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.container-for-container > div {
+  width: 150px;
 }
 
 .footer {

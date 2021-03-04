@@ -2,8 +2,7 @@
   border: 2px solid $back-color;
   border-radius: 6px;
   padding: 2vh 2vw;
-  margin: 5vh 0;
-
+  margin: 5vh 1vw;
   text-align: left;
 
   > .artemis-container-title {
@@ -17,13 +16,13 @@
   }
 
 
-  &.is-centered {
+  &.center {
     > .artemis-container-title {
       margin: -2rem auto 1rem;
     }
   }
 
-  &.is-right {
+  &.right {
     > .artemis-container-title {
       margin: -2rem 0 1rem auto;
     }
@@ -81,7 +80,7 @@
   @include mixin-container-shadow($secondary);
 }
 
-.artemis-container-secondary-dark {
+.artemis-container-secondary-dark-shadow {
   @include mixin-container-shadow($secondary-dark);
 }
 

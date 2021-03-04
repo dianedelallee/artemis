@@ -57,6 +57,30 @@ title="hightlighted text" />
 <img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_link.png" alt="link"
 title="link" />
 
+### Container
+
+* **artemis-container**
+* **artemis-container-shadow**
+
+inside the container, you can also define a title inside a p tag with the class `artemis-container-title`, like that:
+```html
+<p class="artemis-container-title">
+```
+
+To change the the position of the title (which is left by default), you can add the class `right` or `center` to the container
+ex: 
+```html
+<div class="artemis-container right">
+    <p class="artemis-container-title"> test de titre</p>
+    <p>test</p>
+</div>
+```
+
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_container.png" alt="container"
+title="container" />
+
+
+
 ## How to use it?
 
 ```shell
