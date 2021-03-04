@@ -76,17 +76,17 @@
   outline: 1px solid;
   outline-color: rgba(243, 210, 80, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #F3D250;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -105,17 +105,17 @@
   outline: 1px solid;
   outline-color: rgba(144, 204, 244, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #90CCF4;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -134,17 +134,17 @@
   outline: 1px solid;
   outline-color: rgba(93, 162, 213, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #5DA2D5;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -163,17 +163,17 @@
   outline: 1px solid;
   outline-color: rgba(247, 136, 136, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #F78888;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -192,17 +192,17 @@
   outline: 1px solid;
   outline-color: rgba(255, 179, 71, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #ffb347;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -221,17 +221,17 @@
   outline: 1px solid;
   outline-color: rgba(119, 221, 119, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #77dd77;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -250,17 +250,17 @@
   outline: 1px solid;
   outline-color: rgba(236, 236, 236, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #ECECEC;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -279,17 +279,17 @@
   outline: 1px solid;
   outline-color: rgba(0, 0, 0, 0.5);
   outline-offset: 0px;
-  text-shadow: none;
   color: #000000;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
   line-height: 45px;
   margin: 0 8px;
   max-width: 160px;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
   background-color: transparent;
 }
@@ -304,12 +304,12 @@
 
 .gamer, .gamer-primary {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #F3D250;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer:active, .gamer-primary:active {
   transform: translateY(1px);
@@ -324,12 +324,12 @@
 
 .gamer-secondary {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #90CCF4;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-secondary:active {
   transform: translateY(1px);
@@ -344,12 +344,12 @@
 
 .gamer-secondary-dark {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #5DA2D5;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-secondary-dark:active {
   transform: translateY(1px);
@@ -364,12 +364,12 @@
 
 .gamer-success {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #77dd77;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-success:active {
   transform: translateY(1px);
@@ -384,12 +384,12 @@
 
 .gamer-warning {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #ffb347;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-warning:active {
   transform: translateY(1px);
@@ -404,12 +404,12 @@
 
 .gamer-danger {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #F78888;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-danger:active {
   transform: translateY(1px);
@@ -424,12 +424,12 @@
 
 .gamer-white {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #ECECEC;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
 }
 .gamer-white:active {
   transform: translateY(1px);
@@ -444,12 +444,12 @@
 
 .gamer-black {
   font-weight: 700;
+  cursor: pointer;
   border-radius: 8px;
   background-color: #000000;
   box-shadow: 0 2px #999;
   margin: 0 8px;
   padding: 8px 16px;
-  cursor: pointer;
   color: #ECECEC;
 }
 .gamer-black:active {
@@ -464,14 +464,14 @@
 }
 
 .flat, .flat-primary {
+  color: #F3D250;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #F3D250;
-  color: #F3D250;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat:focus, .flat-primary:focus {
   outline: none;
@@ -486,14 +486,14 @@
 }
 
 .flat-secondary {
+  color: #90CCF4;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #90CCF4;
-  color: #90CCF4;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-secondary:focus {
   outline: none;
@@ -508,14 +508,14 @@
 }
 
 .flat-secondary-dark {
+  color: #5DA2D5;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #5DA2D5;
-  color: #5DA2D5;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-secondary-dark:focus {
   outline: none;
@@ -530,14 +530,14 @@
 }
 
 .flat-success {
+  color: #77dd77;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #77dd77;
-  color: #77dd77;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-success:focus {
   outline: none;
@@ -552,14 +552,14 @@
 }
 
 .flat-warning {
+  color: #ffb347;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #ffb347;
-  color: #ffb347;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-warning:focus {
   outline: none;
@@ -574,14 +574,14 @@
 }
 
 .flat-danger {
+  color: #F78888;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #F78888;
-  color: #F78888;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-danger:focus {
   outline: none;
@@ -596,14 +596,14 @@
 }
 
 .flat-white {
+  color: #ECECEC;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #ECECEC;
-  color: #ECECEC;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-white:focus {
   outline: none;
@@ -618,14 +618,14 @@
 }
 
 .flat-black {
+  color: #000000;
   font-weight: 700;
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid #000000;
-  color: #000000;
   border-radius: 8px;
   margin: 0 8px;
   padding: 8px 20px;
-  cursor: pointer;
 }
 .flat-black:focus {
   outline: none;
@@ -640,12 +640,12 @@
 }
 
 .flat-reverse, .flat-reverse-primary {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #9f810b;
   border-radius: 8px;
   background-color: #F3D250;
-  border: 2px solid #9f810b;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -662,12 +662,12 @@
 }
 
 .flat-reverse-secondary {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #1589d6;
   border-radius: 8px;
   background-color: #90CCF4;
-  border: 2px solid #1589d6;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -684,12 +684,12 @@
 }
 
 .flat-reverse-secondary-dark {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #20537a;
   border-radius: 8px;
   background-color: #5DA2D5;
-  border: 2px solid #20537a;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -706,12 +706,12 @@
 }
 
 .flat-reverse-success {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #259625;
   border-radius: 8px;
   background-color: #77dd77;
-  border: 2px solid #259625;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -728,12 +728,12 @@
 }
 
 .flat-reverse-warning {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #ad6600;
   border-radius: 8px;
   background-color: #ffb347;
-  border: 2px solid #ad6600;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -750,12 +750,12 @@
 }
 
 .flat-reverse-danger {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #d80e0e;
   border-radius: 8px;
   background-color: #F78888;
-  border: 2px solid #d80e0e;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -772,12 +772,12 @@
 }
 
 .flat-reverse-white {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid #a0a0a0;
   border-radius: 8px;
   background-color: #ECECEC;
-  border: 2px solid #a0a0a0;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
 }
@@ -794,12 +794,12 @@
 }
 
 .flat-reverse-black {
+  color: #000000;
   font-weight: 700;
   cursor: pointer;
+  border: 2px solid black;
   border-radius: 8px;
   background-color: #000000;
-  border: 2px solid black;
-  color: #000000;
   margin: 0 8px;
   padding: 8px 20px;
   color: #ECECEC;
@@ -1095,11 +1095,11 @@
 
 blockquote, quote {
   background-color: #b9b9b9;
+  color: #000000;
   font-style: italic;
   font-weight: 400;
   border-left: 10px solid #868686;
   padding: 2vh 1vw;
-  color: #000000;
 }
 
 /*# sourceMappingURL=artemis.css.map */

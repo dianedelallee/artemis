@@ -1,6 +1,8 @@
 # Artemis CSS library
 
-version 0.1.3
+A nice css library to provide pastel elements to include in your website.
+
+version 0.1.4
 
 ## CSS class available
 
