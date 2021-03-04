@@ -2,7 +2,7 @@
 
 A nice css library to provide pastel elements to include in your website.
 
-version 0.1.4
+version 0.1.5
 
 ## CSS class available
 
