@@ -28,14 +28,14 @@ Term | color | value
 * **reverse-flat** (ex: reverse-flat, reverse-flat-danger, reverse-flat-secondary, ...)
 * **neon** (ex: neon, neon-danger, neon-secondary, ...)
 
-<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_button.png"/ alt="button" title="
-button">
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_button.png" alt="button" title="
+button" />
 
 ### Inputs
 
 * **artemis-input** (ex: artemis-input, artemis-input-danger, artemis-input-secondary, ...)
 
-<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_input.png"/ alt="Input" title="Input">
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_input.png" alt="Input" title="Input" />
 
 ### Highlight
 
@@ -45,15 +45,15 @@ work with some span
 * **important** (ex: important, important-danger, important-secondary, ...)
 * **show** (ex: show, show-danger, show-secondary, ...)
 
-<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_hightlight.png"/ alt="hightlighted text"
-title="hightlighted text">
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_hightlight.png" alt="hightlighted text"
+title="hightlighted text" />
 
 ### Link
 
 * **link** (ex: link, link-danger, link-secondary, ...)
 
-<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_link.png"/ alt="link"
-title="link">
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_link.png" alt="link"
+title="link" />
 
 ## How to use it?
 
