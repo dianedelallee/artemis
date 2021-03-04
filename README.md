@@ -45,7 +45,7 @@ work with some span
 * **important** (ex: important, important-danger, important-secondary, ...)
 * **show** (ex: show, show-danger, show-secondary, ...)
 
-<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_hightlight.png" alt="hightlighted text"
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_highlight.png" alt="hightlighted text"
 title="hightlighted text" />
 
 ### Link
