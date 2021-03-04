@@ -1,0 +1,111 @@
+@mixin mixin-container($back-color: $primary) {
+  border: 2px solid $back-color;
+  border-radius: 6px;
+  padding: 2vh 2vw;
+  margin: 5vh 0;
+
+  text-align: left;
+
+  > .artemis-container-title {
+    display: table;
+    padding: 0 0.5rem;
+    margin: -1.8rem 0 1rem;
+    font-size: 1rem;
+    background-color: $back-color;
+    border-radius: 6px;
+    color: $black;
+  }
+
+
+  &.is-centered {
+    > .artemis-container-title {
+      margin: -2rem auto 1rem;
+    }
+  }
+
+  &.is-right {
+    > .artemis-container-title {
+      margin: -2rem 0 1rem auto;
+    }
+  }
+}
+
+.artemis-container {
+  @include mixin-container();
+}
+
+.artemis-container-secondary {
+  @include mixin-container($secondary);
+}
+
+.artemis-container-secondary-dark {
+  @include mixin-container($secondary-dark);
+}
+
+.artemis-container-success {
+  @include mixin-container($success);
+}
+
+.artemis-container-warning {
+  @include mixin-container($warning);
+
+}
+
+.artemis-container-danger {
+  @include mixin-container($danger);
+}
+
+.artemis-container-white {
+  @include mixin-container($white);
+}
+
+.artemis-container-black {
+  @include mixin-container($black);
+  > .artemis-container-title {
+    color: white;
+  }
+}
+
+
+@mixin mixin-container-shadow($back-color: $primary) {
+  @include mixin-container($back-color);
+  box-shadow: rgba($back-color, 0.56) 0px 22px 70px 4px;
+}
+
+
+.artemis-container-shadow {
+  @include mixin-container-shadow();
+}
+
+.artemis-container-secondary-shadow {
+  @include mixin-container-shadow($secondary);
+}
+
+.artemis-container-secondary-dark {
+  @include mixin-container-shadow($secondary-dark);
+}
+
+.artemis-container-success-shadow {
+  @include mixin-container-shadow($success);
+}
+
+.artemis-container-warning-shadow {
+  @include mixin-container-shadow($warning);
+
+}
+
+.artemis-container-danger-shadow {
+  @include mixin-container-shadow($danger);
+}
+
+.artemis-container-white-shadow {
+  @include mixin-container-shadow($white);
+}
+
+.artemis-container-black-shadow {
+  @include mixin-container-shadow($black);
+  > .artemis-container-title {
+    color: white;
+  }
+}
+
