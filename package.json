@@ -1,6 +1,6 @@
 {
   "name": "artemis-css",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A nice css library for bootstrap 5",
   "main": "README.md",
   "scripts": {

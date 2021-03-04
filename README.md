@@ -1,10 +1,11 @@
 # Artemis CSS library
 
-version 0.1.2
+version 0.1.3
 
 ## CSS class available
 
 ### Declinaison of color
+
 Once you know which class you want to use you can add the following ending work to change the color
 
 Here are the color
@@ -22,26 +23,56 @@ Term | color | value
 
 ### Buttons
 
-* gamer
-* flat
-* reverse-flat
-* neon
+* **gamer** (ex: gamer, gamer-danger, gamer-secondary, ...)
+* **flat** (ex: flat,flat-danger, flat-secondary, ...)
+* **reverse-flat** (ex: reverse-flat, reverse-flat-danger, reverse-flat-secondary, ...)
+* **neon** (ex: neon, neon-danger, neon-secondary, ...)
+
+<img src="https://github.com/dianedelallee/artemis/tree/master/demo/img/artemis_button.png"/ alt="button" title="
+button">
 
 ### Inputs
 
-* artemis-input
+* **artemis-input** (ex: artemis-input, artemis-input-danger, artemis-input-secondary, ...)
+
+<img src="https://github.com/dianedelallee/artemis/tree/master/demo/img/artemis_input.png"/ alt="Input" title="Input">
 
 ### Highlight
 
-* highlight
-* important
-* show
+work with some span
+
+* **highlight** (ex: highlight, highlight-danger, highlight-secondary, ...)
+* **important** (ex: important, important-danger, important-secondary, ...)
+* **show** (ex: show, show-danger, show-secondary, ...)
+
+<img src="https://github.com/dianedelallee/artemis/tree/master/demo/img/artemis_hightlight.png"/ alt="hightlighted text"
+title="hightlighted text">
+
+### Link
+
+* **link** (ex: link, link-danger, link-secondary, ...)
 
 ## How to use it?
 
-`npm install artemis-css`
+```shell
+npm install artemis-css
+```
 
+It will create a node module package. If you are using a scss file you can directly import it like that
+
+```scss
+@import "../node_modules/artemis-css/artemis.min.css";
+```
+
+Or if you prefer to include it in the head of your html file.
+
+```html
+
+<link href="./node_modules/artemis-css/artemis.min.css" rel="stylesheet">
+```
+
+You can now use all the classes provided by the library
 
 ## In the next release
-* Better explanation of how to use it
-* Propose other form style
+
+* Propose other style for different form components
