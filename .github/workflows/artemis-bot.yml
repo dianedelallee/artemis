@@ -2,7 +2,7 @@ name: Artemis bot
 
 on:
   schedule:
-    - cron:  '0 * * * *' 
+    - cron:  '11 * * * *' 
 
 jobs:
   build:
