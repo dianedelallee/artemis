@@ -19,7 +19,7 @@ def _tweet_article(api, version, link):
 
 
 def get_new_version():
-    previous_hour = datetime.today().replace(tzinfo=pytz.utc) - timedelta(hours=72)
+    previous_hour = datetime.today() - timedelta(hours=72)
     response = requests.get("https://api.github.com/repos/dianedelallee/artemis/releases/latest")
     publication_date = datetime.strptime(response.json()['published_at'], '%Y-%m-%dT%H:%M:%SZ')
     
