@@ -3,6 +3,8 @@ name: Artemis bot
 on:
   schedule:
     - cron:  '* * * * *' 
+  push:
+    branches: [ master ]
 
 jobs:
   build:
