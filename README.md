@@ -109,3 +109,6 @@ You can now use all the classes provided by the library
 ## In the next release
 
 * Propose other style for different form components
+
+## Other
+[![Rate on Openbase](https://badges.openbase.com/js/rating/artemis-css.svg)](https://openbase.com/js/artemis-css?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
