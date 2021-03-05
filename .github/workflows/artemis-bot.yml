@@ -2,13 +2,11 @@ name: Artemis bot
 
 on:
   schedule:
-    - cron:  '11 * * * *' 
+    - cron:  '* * * * *' 
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
