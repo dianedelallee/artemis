@@ -29,7 +29,7 @@ def get_new_version():
     api = tweepy.API(auth)
 
     if publication_date >= previous_hour:
-    _tweet_article(api, response.json()["tag_name"], response.json()["html_url"])
+        _tweet_article(api, response.json()["tag_name"], response.json()["html_url"])
     print('----- END -----')
 
 
