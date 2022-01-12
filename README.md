@@ -107,7 +107,7 @@ Or if you prefer to include it in the head of your html file.
 ```
 Last solution, you can use the `cdn.jsdelivr` link (don't forget to change the version on this link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/artemis-css@0.1.5/artemis.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/artemis-css@0.2.0/artemis.min.css" rel="stylesheet">
 ```
 
 You can now use all the classes provided by the library
