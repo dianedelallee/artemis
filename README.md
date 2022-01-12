@@ -79,7 +79,13 @@ ex:
 <img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_container.png" alt="container"
 title="container" />
 
+### Alert
 
+* **artemis-alert** (ex: artemis-alert, artemis-alert-danger, artemis-alert-secondary, ...)
+* **artemis-alert-shadow** (ex: artemis-alert-shadow, artemis-alert-danger-shadow, artemis-alert-secondary-shadow, ...)
+
+<img src="https://github.com/dianedelallee/artemis/blob/master/demo/img/artemis_alert.png" alt="alert"
+title="alert" />
 
 ## How to use it?
 

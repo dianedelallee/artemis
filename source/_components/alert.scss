@@ -1,0 +1,90 @@
+@mixin mixin-alert($back-color: $primary) {
+  background-color: lighten($back-color, 5%);
+  font-weight: 200;
+  color: darken($back-color, 40%);
+  border-radius: 6px;
+  padding: 0.2vh 1vw;
+  margin: 5vh 1vw;
+  text-align: left;
+
+ p::before {
+ content: '💥️ ️';
+ }
+
+}
+
+.artemis-alert {
+  @include mixin-alert();
+}
+
+.artemis-alert-secondary {
+  @include mixin-alert($secondary);
+}
+
+.artemis-alert-secondary-dark {
+  @include mixin-alert($secondary-dark);
+}
+
+.artemis-alert-success {
+  @include mixin-alert($success);
+}
+
+.artemis-alert-warning {
+  @include mixin-alert($warning);
+
+}
+
+.artemis-alert-danger {
+  @include mixin-alert($danger);
+}
+
+.artemis-alert-white {
+  @include mixin-alert($white);
+}
+
+.artemis-alert-black {
+  @include mixin-alert($black);
+    color: darken(white, 60%);
+}
+
+
+@mixin mixin-alert-shadow($back-color: $primary) {
+  @include mixin-alert($back-color);
+  box-shadow: rgba($back-color, 0.56) 0px 22px 70px 4px;
+}
+
+
+.artemis-alert-shadow {
+  @include mixin-alert-shadow();
+}
+
+.artemis-alert-secondary-shadow {
+  @include mixin-alert-shadow($secondary);
+}
+
+.artemis-alert-secondary-dark-shadow {
+  @include mixin-alert-shadow($secondary-dark);
+}
+
+.artemis-alert-success-shadow {
+  @include mixin-alert-shadow($success);
+}
+
+.artemis-alert-warning-shadow {
+  @include mixin-alert-shadow($warning);
+
+}
+
+.artemis-alert-danger-shadow {
+  @include mixin-alert-shadow($danger);
+}
+
+.artemis-alert-white-shadow {
+  @include mixin-alert-shadow($white);
+}
+
+.artemis-alert-black-shadow {
+  @include mixin-alert-shadow($black);
+   color: darken(white, 60%);
+}
+
